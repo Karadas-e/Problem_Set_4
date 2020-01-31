@@ -7,6 +7,9 @@ swirl_options(swirl_logging = TRUE)
   )
 }
 
+# If the lesson requires a data set, as is the case here (Looking at Data requires plants dataset)
+# we need to change "R_Programming" to "Problem_Set_3", which is the github name 
+
 # Path to data
 .datapath <- file.path(.get_course_path(),
                       'Problem_Set_3', 'Looking_at_Data',
